@@ -13,10 +13,10 @@ The course objectives are as follow:
 
 The first milestone simply reads note, amplitude, and duration from csv files and converts each csv file to .wav file
 
-In second this milestone, instead of reading the notes,amplitudes and durations from .csv files, it reads
-event from .mid files and distinguish the events and change data accordingly to convert them into .wav files
+In second milestone, instead of reading the notes,amplitudes and durations from .csv files, the program reads
+events from .mid files and distinguish the events and change data accordingly to convert them into .wav files
 
-The third milestone involves GUI development, where the additional data (velocity,attack time, decay time,etc) is controlled by user.
+The third milestone involves GUI development, where the additional data (velocity,attack time, decay time,etc) is controlled by user and converts them into .wav files with additional data.
 
 The fourth milestone involves multithreading where multiple events can happen at the same time. The project involved implementation of message queue and double buffer, 
 which required usage of mutex and condition variables. 
